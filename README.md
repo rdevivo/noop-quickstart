@@ -93,9 +93,9 @@ All the other directives are vanilla Dockerfile directives.
 
 You might want to take a moment to examine the contents of all of these directories.
 
-## Testing locally
+## Running locally
 
-To test the sample application locally, you'll first need to install the noop CLI. In order to do so, you'll need to ensure that `node` (tested with `v10.11.0`), `npm` (tested with `6.4.1`), and `docker` (tested with `18.06.1-ce`) are installed. You'll also want to ensure that the docker daemon is running by entering the following into a terminal:
+To run the sample application locally, you'll first need to install the noop CLI. In order to do so, you'll need to ensure that `node` (tested with `v12.14.1`), `npm` (tested with `6.13.4`), and `docker` (tested with `19.03.4`) are installed. The latest stable releases for Active LTS Node.js versions and Docker Desktop for Mac and Windows are supported. You'll also want to ensure that the docker daemon is running by entering the following into a terminal:
 
 ```bash
 docker ps
@@ -149,4 +149,4 @@ Once your application is running, you can access the logs for each component by 
 
 ## Go forth, dear nooper, and build!
 
-At this point, you're ready to do some exploring on your own. Please take some time to try to build and deploy an application that you actually care about. If you run into any issues, or have any questions or concerns, please reach out to us on the Slack channel. 
+At this point, you're ready to do some exploring on your own. Please take some time to try to build and deploy an application that you actually care about. If you run into any issues, or have any questions or concerns, please reach out to us on [Slack](https://noop-group.slack.com/). 
