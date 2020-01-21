@@ -95,7 +95,7 @@ You might want to take a moment to examine the contents of all of these director
 
 ## Running locally
 
-To run the sample application locally, you'll first need to install the noop CLI. In order to do so, you'll need to ensure that `node` (tested with `v12.14.1`), `npm` (tested with `6.13.4`), and `docker` (tested with `19.03.4`) are installed. The latest stable releases for Active LTS Node.js versions and Docker Desktop for Mac and Windows are supported. You'll also want to ensure that the docker daemon is running by entering the following into a terminal:
+To run the sample application locally, you'll first need to install the noop CLI. In order to do so, you'll need to ensure that `node` (tested with `v12.14.1`), `npm` (tested with `6.13.4`), and `docker` (tested with `19.03.4`) are installed. The latest stable releases for Active LTS Node.js versions and Docker Desktop for Mac are supported. You'll also want to ensure that the docker daemon is running by entering the following into a terminal:
 
 ```bash
 docker ps
